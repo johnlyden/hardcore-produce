@@ -7,3 +7,7 @@ header {
   float: none;
   margin: 0 auto;
 }
+
+.score-card {
+  list-style-type: none;
+}
