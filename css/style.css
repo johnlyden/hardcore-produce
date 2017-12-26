@@ -11,3 +11,9 @@ header {
 .score-card {
   list-style-type: none;
 }
+
+.leaderboard {
+  border: 3px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+}
