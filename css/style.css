@@ -4,20 +4,35 @@ header {
   background: transparent;
 }
 
+h2 {
+  font-family: 'Metal Mania', cursive; 
+  font-size: 42px; 
+}
+
 .col-centered{
   float: none;
   margin: 0 auto;
 }
-
+.score {
+  color: red;
+}
+.mention {
+  color: gray;
+}
 .score-card {
   list-style-type: none;
+  background-color: black;
+  color: white;
+  margin-bottom: 1px;
   min-height: 30px;
+  padding: 10px 20px;
 }
 
 .leaderboard {
-  border: 3px solid black;
+  border: 5px solid white;
   border-radius: 10px;
   overflow: hidden;
+  padding: 0px;
   background-color: white;
 }
 
